@@ -1,63 +1,81 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 body{
-    font-family: Arial, sans-serif;
-    background-color: rgb(51, 1, 233);
+    font-family: Arial, sans-serif !important;
+    background-color: #09719E !important;
 }
 header{
-    background-color: black;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 1em;
-}
-.ImgPerfil{
-    width: 25%;
-    border-radius: 75%;
+    background-color: #000080  !important;
+    color: rgb(255, 255, 255) !important;
+    text-align: center !important;
+    padding: 0em, !important;
 }
 footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 1em;
+    background-color: #000080 !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 0.9em !important;
+}
+.ImgPerfil{
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 50% !important;
 }
 .conteudo{
-    background-color: rgb(0, 0, 0) !important;
-    padding: 2em !important;
+    background-color: #32AABF !important;
+    padding: 0em !important;
     margin-top: 1em !important;
     border-radius: 30px !important;
-    width: 100%;
+    width: 100% !important;
+    text-align: center;
 }
 a{
     text-decoration: none !important;
     color: rgb(255, 255, 255) !important;
 }
 .Principal{
-    margin-left: 20% !important;
-    margin-right: 25% !important;
-    margin-top: 1% !important;
-    margin-bottom: 15% !important;
+    margin-left: 36% !important;
+    margin-right: 36% !important;
+    margin-top: 2% !important;
+    margin-bottom: 1% !important;
 }
 .img-icone{
-    width: 150% !important;
+    width: 50% !important;
+    margin-top: 1.2em !important;
+    position: relative !important;
+    left: 90px !important; 
+}
+.img-icone-redodes{
+    width: 50% !important;
+    margin-top: 1em !important;
+    position: relative !important;
+    left: 90px !important;
+    bottom: 1px !important;
+    border-radius: 20px !important;
 }
 .txt-icone{
     text-align: center !important;
     font-family: Arial, sans-serif !important;
-    font-size: 300% !important;
+    font-size: 120% !important;
     padding: 2em !important;
 }
 
-@media (min-width: 200px) and (max-width: 768px){
+@media (min-width: 200px) and (max-width: 1024px){
         .img-icone{
-            width: 300% !important;
+            width: 100% !important;
+            left: 50px !important;
+        }
+        .img-icone-redodes{
+            width: 100% !important;
+            left: 50px !important;
         }
         .txt-icone{
             font-size: 100% !important;
         }
         .conteudo{
-            background-color: rgb(0, 0, 0) !important;
+            background-color:#32AABF !important;
             padding: 1em !important;
             margin-top: 2em !important;
             border-radius: 10px !important;
@@ -66,7 +84,7 @@ a{
         .Principal{
             text-align: center;
             margin-left: 10% !important;
-            margin-right: 25% !important;
+            margin-right: 10% !important;
             margin-top: 1% !important;
             margin-bottom: 50% !important;
         }
