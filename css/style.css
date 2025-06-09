@@ -4,7 +4,7 @@
 }
 body{
     font-family: Arial, sans-serif !important;
-    background-color: #ffffff !important;
+    background-color: #f5f7fa !important;
 }
 header{
     background-color: #000000  !important;
@@ -24,12 +24,14 @@ footer{
     border-radius: 50% !important;
 }
 .conteudo{
-    background-color: #62d2ee !important;
+    background-color: #ffffff !important;
     padding: 0em !important;
     margin-top: 1em !important;
     border-radius: 30px !important;
     width: 100% !important;
     text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.212) !important;
+    color: rgb(32, 30, 30) !important;
 }
 a{
     text-decoration: none !important;
@@ -80,8 +82,7 @@ a{
             font-size: 100% !important;
         }
         .conteudo{
-            background-color:#32AABF !important;
-            padding: 1em !important;
+            padding: 0.5em !important;
             margin-top: 2em !important;
             border-radius: 10px !important;
             width: 130%;
