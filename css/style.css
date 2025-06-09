@@ -1,29 +1,34 @@
-*{
+* {
     margin: 0 !important;
     padding: 0 !important;
 }
-body{
+
+body {
     font-family: Arial, sans-serif !important;
     background-color: #f5f7fa !important;
 }
-header{
-    background-color: #000000  !important;
+
+header {
+    background-color: #000000 !important;
     color: rgb(255, 255, 255) !important;
     text-align: center !important;
     padding: 0em, !important;
 }
-footer{
+
+footer {
     background-color: #000000 !important;
     color: white !important;
     text-align: center !important;
     padding: 0.4em !important;
 }
-.ImgPerfil{
+
+.ImgPerfil {
     width: 150px !important;
     height: 150px !important;
     border-radius: 50% !important;
 }
-.conteudo{
+
+.conteudo {
     background-color: #ffffff !important;
     padding: 0em !important;
     margin-top: 1em !important;
@@ -33,23 +38,31 @@ footer{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.212) !important;
     color: rgb(32, 30, 30) !important;
 }
-a{
+
+.conteudo:hover {
+    transform: scale(1.05) !important;
+}
+
+a {
     text-decoration: none !important;
     color: rgb(255, 255, 255) !important;
 }
-.Principal{
+
+.Principal {
     margin-left: 36% !important;
     margin-right: 36% !important;
     margin-top: 2% !important;
     margin-bottom: 1% !important;
 }
-.img-icone{
+
+.img-icone {
     width: 50% !important;
     margin-top: 1.8em !important;
     position: relative !important;
-    left: 90px !important; 
+    left: 90px !important;
 }
-.img-icone-redodes{
+
+.img-icone-redodes {
     width: 50% !important;
     margin-top: 1.8em !important;
     position: relative !important;
@@ -57,42 +70,47 @@ a{
     bottom: 1px !important;
     border-radius: 20px !important;
 }
-.txt-icone{
+
+.txt-icone {
     text-align: center !important;
     font-family: Arial, sans-serif !important;
     font-size: 120% !important;
     padding: 2em !important;
 }
 
-.contute{
+.contute {
     margin-bottom: 5em !important;
 }
 
-@media (min-width: 200px) and (max-width: 1024px){
-        .img-icone{
-            width: 100% !important;
-            left: 50px !important;
-        }
-        .img-icone-redodes{
-            width: 100% !important;
-            left: 50px !important;  
-        }
-        .txt-icone{
-            margin-top: 1em !important;
-            font-size: 100% !important;
-        }
-        .conteudo{
-            padding: 0.5em !important;
-            margin-top: 2em !important;
-            border-radius: 10px !important;
-            width: 130%;
-        }
-        .Principal{
-            text-align: center;
-            margin-left: 10% !important;
-            margin-right: 10% !important;
-            margin-top: 1% !important;
-            margin-bottom: 0% !important;
-        }
-        
+@media (min-width: 200px) and (max-width: 1024px) {
+    .img-icone {
+        width: 100% !important;
+        left: 50px !important;
+    }
+
+    .img-icone-redodes {
+        width: 100% !important;
+        left: 50px !important;
+    }
+
+    .txt-icone {
+        margin-top: 1em !important;
+        font-size: 100% !important;
+    }
+
+    .conteudo {
+        padding: 0.5em !important;
+        margin-top: 2em !important;
+        border-radius: 10px !important;
+        width: 130%;
+    }
+
+    .Principal {
+        text-align: center;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+        margin-top: 1% !important;
+        margin-bottom: 0% !important;
+    }
+
 }
